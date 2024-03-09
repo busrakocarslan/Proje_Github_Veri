@@ -1,0 +1,1 @@
+In this project, I aimed to display the API information obtained from GitHub via Dom.

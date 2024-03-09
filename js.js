@@ -1,5 +1,5 @@
 const searchGithub = async () => {
-  const person = document.getElementById("searchInput").value;
+  const person = document.getElementById("searchInput").value.trim();
   const responce = await fetch(`https://api.github.com/users/${person}`);
   const sonuc = document.getElementById("SonucYeri");
   const data = await responce.json();
